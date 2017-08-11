@@ -14,6 +14,7 @@ class MusicListVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        view.backgroundColor = UIColor.blue
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,6 +22,9 @@ class MusicListVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func backButtonpressed(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
 
     /*
     // MARK: - Navigation
