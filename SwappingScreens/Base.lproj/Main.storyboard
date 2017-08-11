@@ -98,6 +98,9 @@
                                     <constraint firstAttribute="height" constant="30" id="Eth-Yc-k3O"/>
                                 </constraints>
                                 <state key="normal" title="Load 3rd screen"/>
+                                <connections>
+                                    <action selector="load3rdScreenPressed:" destination="r7i-EK-rag" eventType="touchUpInside" id="Sv5-3k-GGG"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -107,17 +110,17 @@
                         </constraints>
                     </view>
                     <connections>
-                        <segue destination="39n-VV-20A" kind="showDetail" id="eqQ-0q-cEz"/>
+                        <segue destination="39n-VV-20A" kind="showDetail" identifier="SongVC" id="eqQ-0q-cEz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Ae-Xc-QLf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="981.60000000000002" y="37.331334332833585"/>
         </scene>
-        <!--Play SongVC-->
+        <!--SongVC-->
         <scene sceneID="S6p-W1-X85">
             <objects>
-                <viewController id="39n-VV-20A" customClass="PlaySongVC" customModule="SwappingScreens" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="39n-VV-20A" customClass="SongVC" customModule="SwappingScreens" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1sA-VZ-lHP"/>
                         <viewControllerLayoutGuide type="bottom" id="olq-bf-V5W"/>
@@ -143,6 +146,9 @@
                             <constraint firstItem="VVs-nJ-k5g" firstAttribute="centerX" secondItem="yGO-Ln-Mg5" secondAttribute="centerX" id="L7q-PI-xaG"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="songTitleLbl" destination="VVs-nJ-k5g" id="ZDr-ys-Hgp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dmQ-Sq-DRv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

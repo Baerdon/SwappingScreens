@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SwappingScreens/MusicListVC.swift"
-            timestampString = "524132637.5434"
+            timestampString = "524135067.741995"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "MusicListVC"
             landmarkType = "3">
          </BreakpointContent>
