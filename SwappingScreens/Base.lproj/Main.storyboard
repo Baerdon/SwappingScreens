@@ -26,5 +26,23 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Music ListVC-->
+        <scene sceneID="lCI-ks-QBF">
+            <objects>
+                <viewController id="r7i-EK-rag" customClass="MusicListVC" customModule="SwappingScreens" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="da3-bH-jSI"/>
+                        <viewControllerLayoutGuide type="bottom" id="XPu-3R-VKv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ohn-63-Ulh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Ae-Xc-QLf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="982" y="38"/>
+        </scene>
     </scenes>
 </document>

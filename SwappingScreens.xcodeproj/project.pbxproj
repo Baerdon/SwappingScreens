@@ -12,6 +12,7 @@
 		46EEF9EA1F3D98900033538E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46EEF9E81F3D98900033538E /* Main.storyboard */; };
 		46EEF9EC1F3D98900033538E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EEF9EB1F3D98900033538E /* Assets.xcassets */; };
 		46EEF9EF1F3D98900033538E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46EEF9ED1F3D98900033538E /* LaunchScreen.storyboard */; };
+		46EEF9F71F3D9B630033538E /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EEF9F61F3D9B630033538E /* MusicListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		46EEF9EB1F3D98900033538E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46EEF9EE1F3D98900033538E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46EEF9F01F3D98900033538E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46EEF9F61F3D9B630033538E /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				46EEF9E41F3D98900033538E /* AppDelegate.swift */,
 				46EEF9E61F3D98900033538E /* LoginVC.swift */,
+				46EEF9F61F3D9B630033538E /* MusicListVC.swift */,
 				46EEF9E81F3D98900033538E /* Main.storyboard */,
 				46EEF9EB1F3D98900033538E /* Assets.xcassets */,
 				46EEF9ED1F3D98900033538E /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46EEF9F71F3D9B630033538E /* MusicListVC.swift in Sources */,
 				46EEF9E71F3D98900033538E /* LoginVC.swift in Sources */,
 				46EEF9E51F3D98900033538E /* AppDelegate.swift in Sources */,
 			);
